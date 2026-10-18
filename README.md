@@ -4,6 +4,21 @@
 
 In today's fast-paced world, businesses and organizations face the challenge of extracting meaningful insights from the overwhelming amount of data at their disposal. Traditional methods often fall short, necessitating a more sophisticated and efficient solution.
 
+## **Project Overview** ##
 Employee turnover can increase hiring and training costs, reduce productivity and create extra work for remaining employees. However, HR managers may not know which factors are linked to employees leaving or which groups of employees are more likely to leave the company.
 
-This project aims to analyse employee information, such as age, salary, job satisfaction, work experience and working conditions, to identify patterns and factors associated with employee turnover. Using Power BI, the project will present these findings through an interactive dashboard. Predictive analytics will also be used to estimate which employees may be more likely to leave. The results can help HR managers make better decisions, improve employee retention, reduce recruitment and training costs, and support better workforce planning.
+## **Problem Statement** ##
+How can a company identify the key factors linked to employee turnover and use predictive analysis to identify employees who may be more likely to leave, so that it can reduce staff turnover, lower costs, increase productivity and support better workforce planning?
+
+## **Project Objectives** ##
+1. To measure the employee attrition rate and compare employees who leave with those who stay.
+2. To identify which departments and job roles have higher employee attrition rates.
+3. To analyse the relationship between employee salary, compensation and attrition.
+4. To examine how job satisfaction, work environment and work-life balance relate to employee attrition.
+5. To investigate how overtime, work experience and years of service relate to employee attrition.
+6. To develop a predictive model to estimate whether an employee is likely to leave the company.
+7. To evaluate and compare the performance of different predictive models using suitable evaluation metrics.
+8. To recommend strategies that can help the company improve employee retention and reduce attrition based on the analysis results.
+
+## **Tools to use** ##
+Power BI <br> Python
