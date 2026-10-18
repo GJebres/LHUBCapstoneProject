@@ -1,5 +1,9 @@
 **Prepared by R Hadi**
 
+<p align="center">
+<img width="300" height="300" alt="squarlogo" src="https://github.com/user-attachments/assets/c19be037-2e06-4055-a40e-cfa9c41ec5bc" />
+<p/>
+  
 # **Employee Attrition Analysis and Retention Improvement - IBM HR Analytics**
 
 In today's fast-paced world, businesses and organizations face the challenge of extracting meaningful insights from the overwhelming amount of data at their disposal. Traditional methods often fall short, necessitating a more sophisticated and efficient solution.
