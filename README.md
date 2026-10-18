@@ -1,3 +1,4 @@
+**Prepared by R Hadi**
 
 # **Employee Attrition Analysis and Retention Improvement - IBM HR Analytics**
 
@@ -29,7 +30,7 @@ Dataset 2:
 Employees.csv
 
 Dataset 3:
-Employment Status.csv
+EmploymentStatus.csv
 
 Dataset 4:
 Experience.csv
