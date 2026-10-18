@@ -18,3 +18,21 @@ How can a company identify the key factors linked to employee turnover and use p
 
 ## **Tools to use** ##
 HR data set <br/> Power BI - Interactive dashboard and business reporting <br/> Python - Develop and evaluate predictive models
+
+## **Dataset Overview** ##
+For this project, there are 5 datasets to use for this analysis.
+
+Dataset 1:
+Compensation.csv
+
+Dataset 2: 
+Employees.csv
+
+Dataset 3:
+Employment Status.csv
+
+Dataset 4:
+Experience.csv
+
+Dataset 5:
+Performance.csv
