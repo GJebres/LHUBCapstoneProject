@@ -1,4 +1,3 @@
-<img width="300" height="300" alt="squarlogo" src="https://github.com/user-attachments/assets/c19be037-2e06-4055-a40e-cfa9c41ec5bc" />
 
 # **Employee Attrition Analysis and Retention Improvement - IBM HR Analytics**
 
