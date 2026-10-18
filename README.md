@@ -17,4 +17,4 @@ How can a company identify the key factors linked to employee turnover and use p
 5. To recommend strategies that can help the company improve employee retention and reduce attrition based on the analysis results.
 
 ## **Tools to use** ##
-Power BI <br> Python
+HR data set <br/> Power BI - Interactive dashboard and business reporting <br/> Python - Develop and evaluate predictive models
