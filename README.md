@@ -25,19 +25,56 @@ How can a company identify the key factors linked to employee turnover and use p
 HR data set <br/> Power BI - Interactive dashboard and business reporting <br/> Python - Develop and evaluate predictive models
 
 ## **Dataset Overview** ##
-For this project, there are 5 datasets to use for this analysis.
+For this project, there are 5 datasets (Compensation, Employees, Employment Status, Experience and Performance) to use for this analysis.
 
-Dataset 1:
-Compensation.csv
+### Compensation
+Dataset 1: Compensation.csv  
+**Shape:** (1470, 7)
 
-Dataset 2: 
-Employees.csv
+| EmployeeNumber | DailyRate | HourlyRate | MonthlyIncome | MonthlyRate | PercentSalaryHike | StockOptionLevel |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| 0 | 1102 | 94 | 5993 | 19479 | 11 | 0 |
+| 1 | 279 | 61 | 5130 | 24907 | 23 | 1 |
+| 2 | 1373 | 92 | 2090 | 2396 | 15 | 0 |
 
-Dataset 3:
-EmploymentStatus.csv
+### Employees
+Dataset 2: Employees.csv  
+**Shape:** (1470, 14)
 
-Dataset 4:
-Experience.csv
+| EmployeeNumber | Age | Gender | MaritalStatus | Education | EducationField | Department | JobRole | JobLevel | BusinessTravel | DistanceFromHome | EmployeeCount | Over18 | StandardHours |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| 0 | 41.0 | Female | Single | 2 | Life Sciences | Sales | Sales Executive | 2 | Travel_Rarely | 1 | 1 | Y | 80 |
+| 1 | 49.0 | Male | Married | 1 | Life Sciences | Research & Development | Research Scientist | 2 | Travel_Frequently | 8 | 1 | Y | 80 |
+| 2 | 37.0 | Male | Single | 2 | Other | Research & Development | Laboratory Technician | 1 | Travel_Rarely | 2 | 1 | Y | 80 |
 
-Dataset 5:
-Performance.csv
+### Employment Status
+Dataset 3: EmploymentStatus.csv  
+**Shape:** (1470, 3)
+
+| EmployeeNumber | Attrition | OverTime |
+| :--- | :--- | :--- |
+| 0 | Yes | Yes |
+| 1 | No | No |
+| 2 | Yes | Yes |
+
+### Experience
+Dataset 4: Experience.csv  
+**Shape:** (1470, 8)
+
+| EmployeeNumber | NumCompaniesWorked | TotalWorkingYears | TrainingTimesLastYear | YearsAtCompany | YearsInCurrentRole | YearsSinceLastPromotion | YearsWithCurrManager |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| 0 | 8 | 8 | 0 | 6 | 4 | 0 | 5 |
+| 1 | 2 | 1 | 10 | 3 | 10 | 7 | 1 | 7 |
+| 2 | 4 | 6 | 7 | 3 | 0 | 0 | 0 | 0 |
+
+### Performance
+Dataset 5: Performance.csv  
+**Shape:** (1470, 7)
+
+| EmployeeNumber | PerformanceRating | EnvironmentSatisfaction | JobInvolvement | JobSatisfaction | RelationshipSatisfaction | WorkLifeBalance |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| 0 | 3 | 2 | 3 | 4 | 1 | 1 |
+| 1 | 2 | 4 | 3 | 2 | 2 | 4 | 3 |
+| 2 | 4 | 3 | 4 | 2 | 3 | 2 | 3 |
+
+After 
