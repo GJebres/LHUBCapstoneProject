@@ -10,15 +10,12 @@ Employee turnover can increase hiring and training costs, reduce productivity an
 ## **Problem Statement** ##
 How can a company identify the key factors linked to employee turnover and use predictive analysis to identify employees who may be more likely to leave, so that it can reduce staff turnover, lower costs, increase productivity and support better workforce planning?
 
-## **Project Objectives** ##
-1. To measure the employee attrition rate and compare employees who leave with those who stay.
-2. To identify which departments and job roles have higher employee attrition rates.
-3. To analyse the relationship between employee salary, compensation and attrition.
-4. To examine how job satisfaction, work environment and work-life balance relate to employee attrition.
-5. To investigate how overtime, work experience and years of service relate to employee attrition.
-6. To develop a predictive model to estimate whether an employee is likely to leave the company.
-7. To evaluate and compare the performance of different predictive models using suitable evaluation metrics.
-8. To recommend strategies that can help the company improve employee retention and reduce attrition based on the analysis results.
+## **Research Objectives** ##
+1. To measure the employee attrition rate and compare employees who leave with those who stay and identify which departments and job roles have higher employee attrition rates.
+2. To analyse the relationship between employee salary, compensation and attrition and examine how job satisfaction, work environment and work-life balance relate to employee attrition.
+3. To investigate how overtime, work experience and years of service relate to employee attrition.
+4. To develop a predictive model to estimate whether an employee is likely to leave the company.
+5. To recommend strategies that can help the company improve employee retention and reduce attrition based on the analysis results.
 
 ## **Tools to use** ##
 Power BI <br> Python
