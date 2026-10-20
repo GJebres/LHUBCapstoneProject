@@ -82,7 +82,6 @@ After uploading all the dataset, we start with Data Cleansing and Preparation. O
 - Total data: 1470 records, 35 columns.  
 - All data types are in order and there are no nulls. 
 
-
 ## **Attrition Analysis** ##
 The analysis starts with the Employee Attrition analysis (RO1) to know the numbers of employees who left and those who stayed. The result shows that the number(percentage) of staff who stayed is 1233(83.88%) and those who left is 237 (16.12%)
 
