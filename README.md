@@ -83,3 +83,44 @@ After uploading all the dataset, we start with Data Cleansing and Preparation. O
 ## **Attrition Analysis** ##
 The analysis starts with the Employee Attrition analysis (RO1) to know the numbers of employees who left and those who stayed. The result shows that the number(percentage) of staff who stayed is 1233(83.88%) and those who left is 237 (16.12%)
 
+The next step is to address the attrition based on the department, job role, age group and overtime status to determine which employee groups are more affected by the turnover.
+
+<img width="630" height="470" alt="image" src="https://github.com/user-attachments/assets/b56537bf-b0cd-4a62-9c52-1abd09d5ae66" /> <br/>
+| Department | Attrition Rate (%) |
+| :--- | :--- |
+| Human Resources | 19.05 |
+| Research & Development | 13.84 |
+| Sales | 20.63 |
+
+<img width="628" height="470" alt="image" src="https://github.com/user-attachments/assets/b93d1357-dd26-4f70-96fd-f3d42438c615" /> <br/>
+| Job Role | Attrition Rate (%) |
+| :--- | :---: |
+| Sales Representative | 39.76 |
+| Laboratory Technician | 23.94 |
+| Human Resources | 23.08 |
+| Sales Executive | 17.48 |
+| Research Scientist | 16.10 |
+| Manufacturing Director | 6.90 |
+| Healthcare Representative | 6.87 |
+| Manager | 4.90 |
+| Research Director | 2.50 |
+
+<img width="630" height="470" alt="image" src="https://github.com/user-attachments/assets/41e66119-7092-4683-8973-2820786a3af5" /> <br/>
+| Age Group | Attrition Rate (%) |
+| :--- | :---: |
+| Under 26 | 35.77 |
+| 26-35 | 19.24 |
+| 36-45 | 9.13 |
+| 46-55 | 11.50 |
+| 56 and above | 17.02 |
+
+<img width="630" height="470" alt="image" src="https://github.com/user-attachments/assets/dcf0fe92-d28c-491b-b89b-f7d10c0e310b" /> <br/>
+| Overtime | Attrition Rate (%) |
+| :--- | :---: |
+| No | 10.44 |
+| Yes | 30.53 |
+
+
+
+
+
