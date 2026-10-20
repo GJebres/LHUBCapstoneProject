@@ -120,7 +120,38 @@ The next step is to address the attrition based on the department, job role, age
 | No | 10.44 |
 | Yes | 30.53 |
 
+<img width="630" height="470" alt="image" src="https://github.com/user-attachments/assets/236369bb-9626-4f60-984a-fd496780d6ba" /> <br/>
+| Attrition | Average Monthly Income |
+| :--- | :---: |
+| No | 6832.74 |
+| Yes | 4787.09 |
 
+<img width="630" height="470" alt="image" src="https://github.com/user-attachments/assets/28987680-05a6-4ee6-9278-6ea510df0e8b" /> <br/>
+| Attrition  Job Satisfaction | No | Yes | Attrition Rate (%)|
+| :--- | :--- | :--- | :--- |
+| 1 | 223 | 66 | 22.84 |
+| 2 | 234 | 46 | 16.43 |
+| 3 | 369 | 73 | 16.52 |
+| 4 | 407 | 52 | 11.33 |
 
+<img width="630" height="470" alt="image" src="https://github.com/user-attachments/assets/440fc4da-8db4-4a3d-b1bd-cefcef5b8800" /> <br/>
+| Attrition Work Life balance | No | Yes | 
+| :--- | :--- | :--- | 
+| 1 | 68.75 | 31.25 |
+| 2 | 83.14 | 16.86 |
+| 3 | 85.78 | 14.22 |
+| 4 | 82.35 | 17.65 |
+
+<img width="630" height="470" alt="image" src="https://github.com/user-attachments/assets/1a78f59b-81d9-4b3d-9976-2168524b7b9c" /> <br/>
+|  | Attrition Rate (%) |
+| :--- | :---: |
+| No | 11.86 |
+| Yes | 8.24 |
+
+<img width="630" height="470" alt="image" src="https://github.com/user-attachments/assets/f82059b6-ddb8-4d82-9d9d-9c5860bf622a" /> <br/>
+|  | Attrition Rate (%) |
+| :--- | :---: |
+| No | 7.37 |
+| Yes | 5.13 |
 
 
