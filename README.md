@@ -77,4 +77,5 @@ Dataset 5: Performance.csv
 | 1 | 2 | 4 | 3 | 2 | 2 | 4 | 3 |
 | 2 | 4 | 3 | 4 | 2 | 3 | 2 | 3 |
 
+## **Data Cleansing & Preparation** ##
 After uploading all the dataset, we start with Data Cleansing and Preparation. Out of the dataset used, we can identify that there is 1 discrepancy which was found in Age Group. With this information, we locate the missing data in Age Group and generate a quick statistical summary. The next step is to get the median age and fill in the missing age in the data. 
