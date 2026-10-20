@@ -79,3 +79,7 @@ Dataset 5: Performance.csv
 
 ## **Data Cleansing & Preparation** ##
 After uploading all the dataset, we start with Data Cleansing and Preparation. Out of the dataset used, we can identify that there is 1 discrepancy which was found in Age Group. With this information, we locate the missing data in Age Group and generate a quick statistical summary. The next step is to get the median age and fill in the missing age in the data. 
+
+## **Attrition Analysis** ##
+The analysis starts with the Employee Attrition analysis (RO1) to know the numbers of employees who left and those who stayed. The result shows that the number(percentage) of staff who stayed is 1233(83.88%) and those who left is 237 (16.12%)
+
