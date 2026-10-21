@@ -78,9 +78,24 @@ Dataset 5: Performance.csv
 | 2 | 4 | 3 | 4 | 2 | 3 | 2 | 3 |
 
 ## **Exploratory Data Analysis** ##
-After uploading all the dataset, we start with Data Cleansing and Preparation. Out of the dataset used, we can identify that there is 1 discrepancy which was found in Age Group. With this information, we locate the missing data in Age Group and generate a quick statistical summary. The next step is to get the median age and fill in the missing age in the data. 
+After uploading all five datasets, we begin by cleaning and preparing the data for analysis. During the initial review, we identify missing values in the Age Group column. We locate the missing data, review the statistical summary and calculate the median age to fill in the missing values. This helps ensure that the data is complete and ready for analysis.
+
+Next, we analyse employee attrition by comparing employees who left the company with those who stayed. We also examine attrition by department, job role, age group and overtime status to identify patterns among different employee groups.
+
+Finally, we combine all five datasets to examine the factors associated with employee attrition. These include compensation, job satisfaction, overtime, work experience and years of service. The findings help us better understand employee attrition patterns and identify areas where the company may improve employee retention.
+
 - Total data: 1470 records, 35 columns.  
-- All data types are in order and there are no nulls. 
+- All data types are in order and there are no nulls.
+
+| EmployeeNumber | Age | Gender | MaritalStatus | Education | EducationField | Department | JobRole | JobLevel | BusinessTravel | ... | YearsAtCompany | YearsInCurrentRole | YearsSinceLastPromotion | YearsWithCurrManager | PerformanceRating | EnvironmentSatisfaction | JobInvolvement | JobSatisfaction | RelationshipSatisfaction | WorkLifeBalance |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **0** \| 1 | 41.0 | Female | Single | 2 | Life Sciences | Sales | Sales Executive | 2 | Travel_Rarely | ... | 6 | 4 | 0 | 5 | 3 | 2 | 3 | 4 | 1 | 1 |
+| **1** \| 2 | 49.0 | Male | Married | 1 | Life Sciences | Research & Development | Research Scientist | 2 | Travel_Frequently | ... | 10 | 7 | 1 | 7 | 4 | 3 | 2 | 2 | 4 | 3 |
+| **2** \| 4 | 37.0 | Male | Single | 2 | Other | Research & Development | Laboratory Technician | 1 | Travel_Rarely | ... | 0 | 0 | 0 | 0 | 3 | 4 | 2 | 3 | 2 | 3 |
+| **3** \| 5 | 33.0 | Female | Married | 4 | Life Sciences | Research & Development | Research Scientist | 1 | Travel_Frequently | ... | 8 | 7 | 3 | 0 | 3 | 4 | 3 | 3 | 3 | 3 |
+| **4** \| 7 | 27.0 | Male | Married | 1 | Medical | Research & Development | Laboratory Technician | 1 | Travel_Rarely | ... | 2 | 2 | 2 | 2 | 3 | 1 | 3 | 2 | 4 | 3 |
+
+*5 rows × 35 columns*
 
 ## **Attrition Analysis** ##
 The analysis starts with the Employee Attrition analysis (RO1) to know the numbers of employees who left and those who stayed. The result shows that the number(percentage) of staff who stayed is 1233(83.88%) and those who left is 237 (16.12%)
