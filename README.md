@@ -151,13 +151,21 @@ The next step is to address the attrition based on the department, job role, age
 | 3 | 369 | 73 | 16.52 |
 | 4 | 407 | 52 | 11.33 |
 
-<img width="630" height="470" alt="image" src="https://github.com/user-attachments/assets/440fc4da-8db4-4a3d-b1bd-cefcef5b8800" /> <br/>
-| Attrition Work Life balance | No | Yes | 
-| :--- | :--- | :--- | 
-| 1 | 68.75 | 31.25 |
-| 2 | 83.14 | 16.86 |
-| 3 | 85.78 | 14.22 |
-| 4 | 82.35 | 17.65 |
+<img width="630" height="470" alt="image" src="https://github.com/user-attachments/assets/8d9269e0-6d9d-4fe2-9607-e4003cfcb699" /> <br/>
+| Attrition Environment | No | Yes | Attrition Rate |
+| :--- | :--- | :--- | :--- | 
+| 1 | 212 | 72 | 25.35 |
+| 2 | 244 | 43 | 14.98 |
+| 3 | 391 | 62 | 13.69 |
+| 4 | 386 | 60 | 13.45 |
+
+<img width="630" height="470" alt="image" src="https://github.com/user-attachments/assets/266e235f-81bf-462d-9325-8cb96ec65fde" /> <br/>
+| Attrition Work Life balance | No | Yes | Attrition Rate |
+| :--- | :--- | :--- | :--- | 
+| 1 | 55  | 25 | 31.25 |
+| 2 | 286 | 58 | 16.86 |
+| 3 | 766 | 127 | 14.22 |
+| 4 | 126 | 27 | 17.65 |
 
 <img width="630" height="470" alt="image" src="https://github.com/user-attachments/assets/1a78f59b-81d9-4b3d-9976-2168524b7b9c" /> <br/>
 |  | Attrition Rate (%) |
