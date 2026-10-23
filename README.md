@@ -15,11 +15,11 @@ Employee turnover can increase hiring and training costs, reduce productivity an
 How can a company identify the key factors linked to employee turnover and use predictive analysis to identify employees who may be more likely to leave, so that it can reduce staff turnover, lower costs, increase productivity and support better workforce planning?
 
 ## **Research Objectives** ##
-1. **Employee Attrition Rate and Workforce Trends:** <br/> To measure the employee attrition rate and analyse overall workforce trends to understand employee turnover patterns.
-2. **Department and Job Role Attrition Analysis:** <br/> To identify departments and job roles with higher attrition rates to determine which employee groups are more affected by turnover.
-3. **Factors Associated with Employee Attrition:**<br/> To examine the relationships between compensation, job satisfaction, overtime, work experience, years of service and employee attrition.
-4. **Interactive HR Dashboard Development:** <br/> To develop an interactive dashboard to visualise employee attrition patterns and key workforce indicators to support data-driven HR decision-making.
-5. **Employee Retention Strategy Recommendations:**<br/> To recommend practical strategies to improve employee retention and reduce attrition based on the findings from the workforce analysis and dashboard.
+1. **Employee Attrition Rate and Workforce Analysis:** <br/> To measure the overall employee attrition rate and compare employees who leave with those who remain in the organisation.
+2. **Department and Job Role Attrition Analysis:** <br/> To identify departments and job roles with higher employee attrition rates and examine differences in turnover across employee groups.
+3. **Compensation and Employee Attrition Analysis:**<br/> To analyse the relationship between employee salary, compensation and attrition to understand how compensation levels are associated with employee turnover.
+4. **Employee Satisfaction and Work Environment Analysis:** <br/> To examine the relationships between job satisfaction, work environment, work-life balance and employee attrition.
+5. **Overtime, Work Experience and Tenure Analysis:**<br/> To investigate the relationships between overtime, work experience, years of service and employee attrition to identify workforce patterns associated with employee turnover.
 
 ## **Tools to use** ##
 HR data set <br/> Power BI - Interactive dashboard and business reporting <br/> Python - Develop and evaluate predictive models
