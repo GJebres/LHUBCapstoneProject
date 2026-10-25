@@ -190,3 +190,15 @@ And finally to address Overtime, Work Experience and Tenure Analysis (RO5), we l
 | No	| 11.86	| 7.37	| 4.48 | 2.23 |
 | Yes	| 8.24 | 5.13	| 2.90	| 1.95 |
 
+**Summary of the findings**
+
+| Analysis	| Result	| Key findings |
+| :--- | :--- | :--- |
+| Job Satisfaction	| Rating 1 had an attrition rate of 22.84% (66 out of 289 employees). <br> Rating 4 had an attrition rate of 11.33% (52 out of 459 employees).	| Employees with the lowest job satisfaction rating had the highest attrition rate. This suggests that lower job satisfaction may be associated with higher employee attrition. |
+| Environment Satsifaction	| Rating 1 had an attrition rate of 25.35% (72 out of 284 employees) <br/> Rating 4 had an attrition rate of 13.45% (60 out of 446 employees)	| Employees who were least satisfied with their work environment had the highest attrition rate. <br/> Workplace conditions may require further investigation.|
+| Work-life Balance	| Rating 1 had an attrition rate of 31.25% (25 out of 80 employees) <br/> Rating 4 had an attrition rate of 14.22% (27 out of 153 employees)	| Employees with the lowest work-life balance rating had the highest attrition rate. <br/> Workload and work-life balance may be important areas for HR to review. |
+| Total Working Experience	| 0–5 years: 28.80% attrition (91 out of 316 employees) <br/> Over 20 years: 7.73% attrition (16 out of 207 employees)	| Employees with less overall work experience had higher attrition rates than more experienced employees. |
+| Average Total Working Years	| Employees who left: 8.24 years on average. <br/> Employees who stayed: 11.86 years on average.	| Employees who left had less total work experience than employees who stayed. <br/> Employees reporting the lowest environment satisfaction have a higher attrition rate. |
+| Average Years at Company	| Employees who left: 5.13 years; Employees who stayed: 7.37 years	| Employees who left had shorter company tenure on average than those who stayed. |
+| Service Groups	| The 0–2 years group had the highest attrition rate at 29.82% (102 out of 342 employees). | Employees in their first two years at the company had the highest attrition rate, <br/> suggesting that early employee retention deserves attention.
+
