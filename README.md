@@ -100,83 +100,93 @@ Finally, we combine all five datasets to examine the factors associated with emp
 ## **Attrition Analysis** ##
 The analysis starts with the Employee Attrition analysis (RO1) to know the numbers of employees who left and those who stayed. The result shows that the number(percentage) of staff who stayed is 1233(83.88%) and those who left is 237 (16.12%)
 
-The next step is to address the attrition based on the department, job role, age group and overtime status to determine which employee groups are more affected by the turnover.
+| Attrition |	Employee | Count | Percentage (%) |
+| :--- | :--- | :--- | :--- |
+| 0 |	No |	1233	| 83.88 |
+| 1	| Yes | 237 |	16.12 |
+
+The next step is to address the attrition based on the department, job role (RO2).
 
 <img width="630" height="470" alt="image" src="https://github.com/user-attachments/assets/b56537bf-b0cd-4a62-9c52-1abd09d5ae66" /> <br/>
-| Department | Attrition Rate (%) |
-| :--- | :--- |
-| Human Resources | 19.05 |
-| Research & Development | 13.84 |
-| Sales | 20.63 |
+| Department | No | Yes |Attrition Rate (%) |
+| :--- | :--- | :--- | :--- |
+| Human Resources | 51 | 12 | 19.05 |
+| Research & Development | 828 | 133 | 13.84 |
+| Sales | 354 | 92 | 20.63 |
 
 <img width="628" height="470" alt="image" src="https://github.com/user-attachments/assets/b93d1357-dd26-4f70-96fd-f3d42438c615" /> <br/>
-| Job Role | Attrition Rate (%) |
-| :--- | :---: |
-| Sales Representative | 39.76 |
-| Laboratory Technician | 23.94 |
-| Human Resources | 23.08 |
-| Sales Executive | 17.48 |
-| Research Scientist | 16.10 |
-| Manufacturing Director | 6.90 |
-| Healthcare Representative | 6.87 |
-| Manager | 4.90 |
-| Research Director | 2.50 |
-
-<img width="630" height="470" alt="image" src="https://github.com/user-attachments/assets/41e66119-7092-4683-8973-2820786a3af5" /> <br/>
-| Age Group | Attrition Rate (%) |
-| :--- | :---: |
-| Under 26 | 35.77 |
-| 26-35 | 19.24 |
-| 36-45 | 9.13 |
-| 46-55 | 11.50 |
-| 56 and above | 17.02 |
-
-<img width="630" height="470" alt="image" src="https://github.com/user-attachments/assets/dcf0fe92-d28c-491b-b89b-f7d10c0e310b" /> <br/>
-| Overtime | Attrition Rate (%) |
-| :--- | :---: |
-| No | 10.44 |
-| Yes | 30.53 |
-
-<img width="630" height="470" alt="image" src="https://github.com/user-attachments/assets/236369bb-9626-4f60-984a-fd496780d6ba" /> <br/>
-| Attrition | Average Monthly Income |
-| :--- | :---: |
-| No | 6832.74 |
-| Yes | 4787.09 |
-
-<img width="630" height="470" alt="image" src="https://github.com/user-attachments/assets/28987680-05a6-4ee6-9278-6ea510df0e8b" /> <br/>
-| Attrition  Job Satisfaction | No | Yes | Attrition Rate (%)|
+| Attrition | No | Yes | Attrition Rate (%) |
 | :--- | :--- | :--- | :--- |
-| 1 | 223 | 66 | 22.84 |
-| 2 | 234 | 46 | 16.43 |
-| 3 | 369 | 73 | 16.52 |
-| 4 | 407 | 52 | 11.33 |
+| Job Role |   |  |  |                                             
+| Sales Representative | 50 | 33 | 39.76 |
+| Laboratory Technician | 197 | 62 | 23.94 |
+| Human Resources | 40 | 12 | 23.08 |
+| Sales Executive | 269 | 57 | 17.48 |
+| Research Scientist | 245 | 47 | 16.10 |
+| Manufacturing Director | 135 | 10 | 6.90 |
+| Healthcare Representative | 122 | 9 | 6.87 |
+| Manager | 97 | 5 | 4.90 |
+| Research Director | 78 | 2 | 2.50 |
 
-<img width="630" height="470" alt="image" src="https://github.com/user-attachments/assets/8d9269e0-6d9d-4fe2-9607-e4003cfcb699" /> <br/>
-| Attrition Environment | No | Yes | Attrition Rate |
-| :--- | :--- | :--- | :--- | 
-| 1 | 212 | 72 | 25.35 |
-| 2 | 244 | 43 | 14.98 |
-| 3 | 391 | 62 | 13.69 |
-| 4 | 386 | 60 | 13.45 |
+To find out the compensation and employee attrition (RO3), we look into Monthly Income, Percentage of Salary Increase, Stock Option Level and categorise Income Band. 
+**Compare compensation by attrition status**
+| Attrition | Monthly Income | Percent Salary Hike |	Stock Option Level |
+| :--- | :--- | :--- | :--- |
+| No |	6832.74 |	15.23 |	0.85 |
+| Yes |	4787.09 |	15.10 |	0.53 |
 
-<img width="630" height="470" alt="image" src="https://github.com/user-attachments/assets/266e235f-81bf-462d-9325-8cb96ec65fde" /> <br/>
-| Attrition Work Life balance | No | Yes | Attrition Rate |
-| :--- | :--- | :--- | :--- | 
-| 1 | 55  | 25 | 31.25 |
-| 2 | 286 | 58 | 16.86 |
-| 3 | 766 | 127 | 14.22 |
-| 4 | 126 | 27 | 17.65 |
+**Group employees into monthly income bands**
+| Attrition	| No	| Yes	| Attrition Rate (%) |
+| :--- | :--- | :--- | :--- |
+| Income Band |  |  |  |			
+| Below 3,000	| 71.39	| 28.61	| 28.61 |
+| 3,000–4,999 | 85.88 |	14.12 |	14.12 |
+| 5,000–7,999 |	90.00 |	10.00 |	10.00 |
+| 8,000 and above	| 89.50 |	10.50 |	10.50 |
 
-<img width="630" height="470" alt="image" src="https://github.com/user-attachments/assets/1a78f59b-81d9-4b3d-9976-2168524b7b9c" /> <br/>
-|  | Attrition Rate (%) |
-| :--- | :---: |
-| No | 11.86 |
-| Yes | 8.24 |
+For Employee Satisfaction and Work Environment analysis (RO4), we look at attrition rates due to Job Satisfaction, Environment and Work-Life balance.
 
-<img width="630" height="470" alt="image" src="https://github.com/user-attachments/assets/f82059b6-ddb8-4d82-9d9d-9c5860bf622a" /> <br/>
-|  | Attrition Rate (%) |
-| :--- | :---: |
-| No | 7.37 |
-| Yes | 5.13 |
+<img width="790" height="490" alt="image" src="https://github.com/user-attachments/assets/6eb7f8d5-3887-4fad-ba1a-851758db1484" />
 
+| Attrition	| No	| Yes	| Attrition Rate (%) |
+| :--- | :--- | :--- | :--- |
+| 1	| 223	| 66	| 22.84 |
+| 2	| 234	| 46	| 16.43 |
+| 3	| 369	| 73	| 16.52 |
+| 4	| 407	| 52	| 11.33 |
+
+<img width="790" height="490" alt="image" src="https://github.com/user-attachments/assets/c7d8a10c-08da-46df-aaa7-6f74454f8326" />
+
+| Attrition	| No	| Yes |
+| :--- | :--- | :--- |
+| 1	| 74.65	| 25.35 |
+| 2	| 85.02	| 14.98 |
+| 3	| 86.31	| 13.69 |
+| 4	| 86.55	| 13.45 |
+
+<img width="790" height="490" alt="image" src="https://github.com/user-attachments/assets/6bd5c956-8892-49cf-bc7c-456478a5d301" />
+
+| Attrition	| No	| Yes |
+| :--- | :--- | :--- |
+| 1	| 68.75	| 31.25 |
+| 2	| 83.14	| 16.86 |
+| 3	| 85.78	| 14.22 |
+| 4	| 82.35 |	17.65 |
+
+And finally to address Overtime, Work Experience and Tenure Analysis (RO5), we look at the number of employees who left and stayed, and calculate the attrition rate for each group. Then we proceed with work experience and length of service in the company
+
+<img width="630" height="470" alt="image" src="https://github.com/user-attachments/assets/0bb3c009-54d9-4077-82db-4021a748c6db" />
+
+| Attrition	| No	| Yes	| Attrition Rate (%) |
+| :--- | :--- | :--- | :--- |
+| Overtime |  |  |  |
+| No	| 944	| 110	| 10.44 |
+| Yes	| 289	| 127	| 30.53 |
+
+**Average Work Experience and Tenure by Attrition**
+
+| Attrition | Total Working Years | Years At Company	| Years In Current Role |	Years Since Last Promotion |
+| :--- | :--- | :--- | :--- | :--- |
+| No	| 11.86	| 7.37	| 4.48 | 2.23 |
+| Yes	| 8.24 | 5.13	| 2.90	| 1.95 |
 
