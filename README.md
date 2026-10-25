@@ -190,15 +190,21 @@ And finally to address Overtime, Work Experience and Tenure Analysis (RO5), we l
 | No	| 11.86	| 7.37	| 4.48 | 2.23 |
 | Yes	| 8.24 | 5.13	| 2.90	| 1.95 |
 
+<img width="1446" height="710" alt="image" src="https://github.com/user-attachments/assets/3754be21-5091-49be-aabe-94e8939e3742" />
+
 **Summary of the findings**
 
 | Analysis	| Result	| Key findings |
 | :--- | :--- | :--- |
-| Job Satisfaction	| Rating 1 had an attrition rate of 22.84% (66 out of 289 employees). <br> Rating 4 had an attrition rate of 11.33% (52 out of 459 employees).	| Employees with the lowest job satisfaction rating had the highest attrition rate. This suggests that lower job satisfaction may be associated with higher employee attrition. |
-| Environment Satsifaction	| Rating 1 had an attrition rate of 25.35% (72 out of 284 employees) <br/> Rating 4 had an attrition rate of 13.45% (60 out of 446 employees)	| Employees who were least satisfied with their work environment had the highest attrition rate. <br/> Workplace conditions may require further investigation.|
-| Work-life Balance	| Rating 1 had an attrition rate of 31.25% (25 out of 80 employees) <br/> Rating 4 had an attrition rate of 14.22% (27 out of 153 employees)	| Employees with the lowest work-life balance rating had the highest attrition rate. <br/> Workload and work-life balance may be important areas for HR to review. |
-| Total Working Experience	| 0–5 years: 28.80% attrition (91 out of 316 employees) <br/> Over 20 years: 7.73% attrition (16 out of 207 employees)	| Employees with less overall work experience had higher attrition rates than more experienced employees. |
-| Average Total Working Years	| Employees who left: 8.24 years on average. <br/> Employees who stayed: 11.86 years on average.	| Employees who left had less total work experience than employees who stayed. <br/> Employees reporting the lowest environment satisfaction have a higher attrition rate. |
-| Average Years at Company	| Employees who left: 5.13 years; Employees who stayed: 7.37 years	| Employees who left had shorter company tenure on average than those who stayed. |
-| Service Groups	| The 0–2 years group had the highest attrition rate at 29.82% (102 out of 342 employees). | Employees in their first two years at the company had the highest attrition rate, <br/> suggesting that early employee retention deserves attention.
+| Overall Employee Attrition (RO1)	| 1,470 employees analysed; 237 left (16.12%) and 1,233 stayed (83.88%). | Most employees stayed with the company, but approximately 1 in 6 employees left. The overall attrition rate provides a baseline for evaluating differences across employee groups. |
+| Attrition by Department (RO2)	| Sales: 20.63% <br/> Human Resources: 19.05% <br/> Research & Development: 13.84%.	| Sales had the highest department-level attrition rate, followed by Human Resources. Research & Development had the lowest rate among the three departments.|
+| Attrition by Job Role	(RO2) | Sales Representatives: 39.76% <br/> Laboratory Technicians: 23.94% <br/> Human Resources: 23.08% <br/> Research Directors: 2.50%.	| Sales Representatives had the highest attrition rate among the selected job roles, suggesting that their workload, incentives, management support and career progression warrant further investigation. |
+| Attrition by Compensation	(RO3) | Employees earning below 3,000 had a 28.61% attrition rate, compared with 10.00% for those earning 5,000–7,999 and 10.50% for those earning 8,000 or more.	| Employees in the lowest income band had substantially higher attrition. HR could investigate salary competitiveness, benefits and pay progression. |
+| Job Satisfaction	(RO4) | Attrition was 22.84% for satisfaction level 1 and 11.33% for level 4.	| Employees with the lowest job satisfaction had a higher attrition rate than those with the highest satisfaction. |
+| Environment Satisfaction (RO4) | Attrition was 25.35% for satisfaction level 1 and 13.45% for level 4.	| Lower environment satisfaction was associated with higher attrition, highlighting the importance of examining employees' workplace experiences. |
+| Work-Life Balance	(RO4)| Employees with work-life balance level 1 had a 31.25% attrition rate, compared with 14.22% for level 4 | Employees reporting the lowest work-life balance had a substantially higher attrition rate, making this an important area for further investigation. |
+| Overtime (RO5) | Employees working overtime had a 30.53% attrition rate, compared with 10.44% among employees who did not work overtime. | The overtime group had approximately 2.92 times the attrition rate of the non-overtime group. HR should investigate workload, staffing and overtime patterns.|
+| Work Experience (RO5) |Employees who stayed had an average of 11.86 total working years, compared with 8.24 years for employees who left. Attrition was 28.80% for employees with 0–5 years of experience and 7.73% for those with over 20 years. | Employees who left generally had less overall work experience. Attrition rates were higher among less-experienced employees.|
+| Years of Service (RO5) | Employees with 0–2 years of service had a 29.82% attrition rate, compared with 8.13% for those with over 10 years of service. | Employees with shorter company tenure had higher attrition. Onboarding, mentoring and early-career support may warrant further investigation.|
+
 
