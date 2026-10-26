@@ -24,6 +24,7 @@ How can a company identify the key factors linked to employee turnover and use p
 ## **Tools to use** ##
 HR data set <br/> Power BI - Interactive dashboard and business reporting <br/> Python - Develop and evaluate predictive models
 
+## **Part 1. Descriptive Analyis** ##
 ## **Dataset Overview** ##
 For this project, there are 5 datasets (Compensation, Employees, Employment Status, Experience and Performance) to use for this analysis.
 
@@ -207,4 +208,7 @@ And finally to address Overtime, Work Experience and Tenure Analysis (RO5), we l
 | Work Experience (RO5) |Employees who stayed had an average of 11.86 total working years, compared with 8.24 years for employees who left. Attrition was 28.80% for employees with 0–5 years of experience and 7.73% for those with over 20 years. | Employees who left generally had less overall work experience. Attrition rates were higher among less-experienced employees.|
 | Years of Service (RO5) | Employees with 0–2 years of service had a 29.82% attrition rate, compared with 8.13% for those with over 10 years of service. | Employees with shorter company tenure had higher attrition. Onboarding, mentoring and early-career support may warrant further investigation.|
 
+## **Part 2. Predictive Analyis** ##
+
+Having completed Descriptive analysis earlier, we are now using Predictive analysis to estimate which staff is more likely to leave. The data used in Descriptive analysis will be the base of the information. Predictive analysis will use the historical pattern to build a model that estimates which employees who are more likely to stay or to leave the company.
 
