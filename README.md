@@ -262,7 +262,7 @@ The Predictive Analysis focuses on the following
 • Predicted Employee Attrition Risk Distribution  
 • Top 5 Predictive Features - Random Forest  
 
-<img width="1409" height="805" alt="image" src="https://github.com/user-attachments/assets/1384639b-0c19-4207-ba7e-53bc3120aae1" />
+<img width="1443" height="804" alt="image" src="https://github.com/user-attachments/assets/bbaeb5be-9876-459d-bd01-190beaf06fa6" />
 
 ## **Observation** ##
 
