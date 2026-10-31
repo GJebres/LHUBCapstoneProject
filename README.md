@@ -191,7 +191,7 @@ And finally to address Overtime, Work Experience and Tenure Analysis (RO5), we l
 | No	| 11.86	| 7.37	| 4.48 | 2.23 |
 | Yes	| 8.24 | 5.13	| 2.90	| 1.95 |
 
-<img width="1446" height="710" alt="image" src="https://github.com/user-attachments/assets/3754be21-5091-49be-aabe-94e8939e3742" />
+<img width="1440" height="728" alt="image" src="https://github.com/user-attachments/assets/452c1dd3-b729-4be3-94b1-b5e01e246e6d" />
 
 **Summary of the findings**
 
