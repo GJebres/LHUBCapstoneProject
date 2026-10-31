@@ -212,3 +212,92 @@ And finally to address Overtime, Work Experience and Tenure Analysis (RO5), we l
 
 Having completed Descriptive analysis earlier, we are now using Predictive analysis to estimate which staff is more likely to leave. The data used in Descriptive analysis will be the base of the information. Predictive analysis will use the historical pattern to build a model that estimates which employees who are more likely to stay or to leave the company.
 
+The preparation included:
+
+•	Selecting relevant employee attributes.  
+•	Separating the target variable, Attrition, from the predictor variables.  
+•	Preparing numeric and categorical features.  
+•	Encoding categorical data where required.  
+•	Splitting the data into training and testing sets.  
+•	Training models using the training data and evaluating them on unseen test data.  
+
+The cleaned matrix was reduced to 33 columns during preparation. The data preparation is needed to provide a consistent set of inputs to learn from. By separating training and testing data, it provides a way to assess how well the models perform on records they were not trained on.
+
+<img width="296" height="254" alt="image" src="https://github.com/user-attachments/assets/f062a32e-063f-432e-a89b-37aaaa81a0bd" />
+
+## **Training and Testing Models** ##
+• Logistic Regression  
+• Random Forest
+
+| Model | Accuracy (%) | Precision (%) | Recall (%) | F1-score (%) | ROC-AUC (%) |
+|---|---:|---:|---:|---:|---:|
+| Logistic Regression | 75.17 | 34.88 | 63.83 | 45.11 | 80.24 |
+| Random Forest | 84.69 | 66.67 | 8.51 | 15.09 | 79.18 |
+
+<img width="1190" height="590" alt="image" src="https://github.com/user-attachments/assets/9d4a0de9-b9b7-448a-ad7a-f9917e434bb7" />
+
+| Evaluation Matrics | Score |
+|---|---:|
+| Accuracy (%): | Random Forest (84.69%) |
+| Precision (%): | Random Forest (66.67%) |
+| Recall (%): | Logistic Regression (63.83%) |
+| F1-score (%): | Logistic Regression (45.11%) |
+| ROC-AUC (%): | Logistic Regression (80.24%) |
+
+<img width="1163" height="495" alt="image" src="https://github.com/user-attachments/assets/9cd35727-3813-432b-af1a-de323203e756" />
+
+The confusion matrix provides a more detailed view of the model's mistake. 
+In Logistic Regression, 30 employees are identified out of 47 and missed 17
+In Random Forest, 20 employees are identified out of 47 and missed 27.
+
+<img width="989" height="690" alt="image" src="https://github.com/user-attachments/assets/e8c66975-6225-4db2-bd3c-e675093b7ac0" />
+
+Random Forest provides a feature-important ranking. These variables represent relative contributions within the model and not the percentage of attrition caused by each sector. It helps HR who may wish to investigate such as compensation, experience and tenure.
+
+## **Power BI** ##
+The test predictions were then exported to Power BI Desktop. It contains 294 test records.
+
+The Predictive Analysis focuses on the following  
+• Actual vs Predicted Attrition  
+• Predicted Employee Attrition Risk Distribution  
+• Top 5 Predictive Features - Random Forest  
+
+<img width="1409" height="805" alt="image" src="https://github.com/user-attachments/assets/1384639b-0c19-4207-ba7e-53bc3120aae1" />
+
+## **Observation** ##
+
+**Model Comparison Table**
+
+| Model | Threshold | Accuracy (%) | Precision (%) | Recall (%) | F1-score (%) | ROC-AUC (%) |
+|---|---:|---:|---:|---:|---:| ---:|
+| Logistic Regression | 0.50 | 75.17 | 34.88 | 63.83 | 45.11 | 0.80 |
+| Random Forest | 0.30 | 84.01 | 50.00 | 42.55 | 45.98 | 0.79 |
+
+**Actual vs Predicted Attrition Chart** - The chart shows the actual attrition outcomes in the test dataset with the model's predictions and provides an initial visual assessment of prediction patterns.
+
+**Predicted Employee Attrition Risk Distribution** - The chart shows how the employees in the test dataset are distributed across the project's three predicted risk bands.
+
+| Risk Group | Employee | Percentage |
+| :-- | :-- | :-- |
+| Low Risk | 116 | 39.46% |
+| Medium Risk | 92 | 31.29% |
+| High Risk | 86 | 29.25 % |
+| Total | 294 | 100% |
+
+**Top 5 Predictive Features - Random Forest** - The scores show relative measures produced by Random Forest model. They show the probabilities that an employee will leave or percentages of employees affected. 
+
+## **HR - Recommendation** ##
+
+| **Recommendation** | **Supporting Finding** | **Suggested HR Action** |
+|---|---|---|
+| **1. Review High-Attrition Job Roles** | Sales Representatives had an attrition rate of 39.76%. | Review sales targets, workload, incentives, management support and career progression. |
+| **2. Review Compensation and Benefits** | Employees earning below 3,000 had an attrition rate of 28.61%. | Compare compensation and benefits with job responsibilities, internal salary ranges and market benchmarks. |
+| **3. Improve Employee Engagement** | Employees with the lowest job involvement rating had an attrition rate of 33.73%. | Conduct employee surveys, regular manager check-ins and career development discussions. |
+| **4. Manage Overtime and Workload** | Employees working overtime had an attrition rate of 30.53%. | Monitor overtime frequency, workload distribution and staffing levels, and assess whether additional support is needed. |
+| **5. Strengthen Support for New Employees** | Employees with 0–2 years of service had an attrition rate of 29.82%. | Improve onboarding, mentoring, early performance feedback and career planning. |
+
+## **Conclusion** ##
+This project analysed 1,470 employee records from the IBM HR Analytics dataset to understand why employees leave the company. The analysis found higher attrition rates among Sales Representatives, lower-income employees, employees with poor work-life balance, those working overtime, and employees with fewer years of service. Two predictive models, Logistic Regression and Random Forest, were used to estimate employee attrition, with different strengths in identifying employees who might leave and making correct predictions. The results were presented through Power BI dashboards, together with recommendations to improve compensation, manage workloads, increase employee engagement and provide better support for new employees. Overall, this project shows how data analysis and visualisation can help HR make better decisions and plan ways to retain employees. Further testing is needed before using the predictions in actual HR decisions.
+
+
+
