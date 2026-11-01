@@ -9,10 +9,12 @@
 In today's fast-paced world, businesses and organizations face the challenge of extracting meaningful insights from the overwhelming amount of data at their disposal. Traditional methods often fall short, necessitating a more sophisticated and efficient solution.
 
 ## **Project Overview** ##
-Employee turnover can increase hiring and training costs, reduce productivity and create extra work for remaining employees. However, HR managers may not know which factors are linked to employees leaving or which groups of employees are more likely to leave the company.
+Employee turnover can increase recruitment and training costs, disrupt team operations and place additional pressure on remaining employees. By analysing employee data, organisations can identify patterns associated with employee attrition and better understand which workforce groups may require further attention.
+
+This project uses the IBM HR Analytics dataset to analyse employee attrition, explore relationships between employee characteristics and turnover, and present findings through an interactive Power BI dashboard. Supplementary predictive models are also developed to explore whether historical employee data can help identify potential attrition risk.
 
 ## **Problem Statement** ##
-How can a company identify the key factors linked to employee turnover and use predictive analysis to identify employees who may be more likely to leave, so that it can reduce staff turnover, lower costs, increase productivity and support better workforce planning?
+How can an organisation use employee workforce data to understand attrition patterns, identify employee groups and workplace factors associated with higher turnover, and present these insights through an interactive dashboard to support evidence-based HR decisions and retention planning?
 
 ## **Research Objectives** ##
 1. **Employee Attrition Rate and Workforce Analysis:** <br/> To measure the overall employee attrition rate and compare employees who leave with those who remain in the organisation.
@@ -191,7 +193,7 @@ And finally to address Overtime, Work Experience and Tenure Analysis (RO5), we l
 | No	| 11.86	| 7.37	| 4.48 | 2.23 |
 | Yes	| 8.24 | 5.13	| 2.90	| 1.95 |
 
-<img width="1433" height="807" alt="image" src="https://github.com/user-attachments/assets/3fd0b74d-650e-4ae2-b6f4-e1f3caedeab2" />
+<img width="1313" height="733" alt="image" src="https://github.com/user-attachments/assets/0bc0b0b4-9a08-4267-9379-7f34a2a8ea43" />
 
 **Summary of the findings**
 
@@ -262,7 +264,7 @@ The Predictive Analysis focuses on the following
 • Predicted Employee Attrition Risk Distribution  
 • Top 5 Predictive Features - Random Forest  
 
-<img width="1443" height="804" alt="image" src="https://github.com/user-attachments/assets/bbaeb5be-9876-459d-bd01-190beaf06fa6" />
+<img width="1257" height="597" alt="image" src="https://github.com/user-attachments/assets/68d78305-f2da-442c-903b-78065e262fdb" />
 
 ## **Observation** ##
 
