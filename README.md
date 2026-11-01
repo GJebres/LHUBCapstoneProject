@@ -24,7 +24,12 @@ How can an organisation use employee workforce data to understand attrition patt
 5. **Overtime, Work Experience and Tenure Analysis:**<br/> To investigate the relationships between overtime, work experience, years of service and employee attrition to identify workforce patterns associated with employee turnover.
 
 ## **Tools to use** ##
-HR data set <br/> Power BI - Interactive dashboard and business reporting <br/> Python - Develop and evaluate predictive models
+• HR data set  
+• **Python and Google Colab:** Data cleaning, integration, descriptive analysis, visualisation and supplementary predictive modelling.  
+• **Power BI:** Interactive dashboards, workforce reporting and presentation of findings for HR decision-makers.  
+• **Analytics approach:** Descriptive business analytics, supported by exploratory predictive modelling.  
+
+
 
 ## **Part 1. Descriptive Analyis** ##
 ## **Dataset Overview** ##
