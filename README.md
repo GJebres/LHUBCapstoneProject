@@ -269,7 +269,7 @@ The Predictive Analysis focuses on the following
 • Predicted Employee Attrition Risk Distribution  
 • Top 5 Predictive Features - Random Forest  
 
-<img width="1257" height="597" alt="image" src="https://github.com/user-attachments/assets/68d78305-f2da-442c-903b-78065e262fdb" />
+<img width="1401" height="800" alt="image" src="https://github.com/user-attachments/assets/6f80cf6b-7184-496b-b727-fbcbb5c751c2" />
 
 ## **Observation** ##
 
@@ -295,13 +295,14 @@ The Predictive Analysis focuses on the following
 
 ## **HR - Recommendation** ##
 
+<img width="1257" height="597" alt="image" src="https://github.com/user-attachments/assets/68d78305-f2da-442c-903b-78065e262fdb" />
+
 | **Recommendation** | **Supporting Finding** | **Suggested HR Action** |
 |---|---|---|
 | **1. Review High-Attrition Job Roles** | Sales Representatives had an attrition rate of 39.76%. | Review sales targets, workload, incentives, management support and career progression. |
 | **2. Review Compensation and Benefits** | Employees earning below 3,000 had an attrition rate of 28.61%. | Compare compensation and benefits with job responsibilities, internal salary ranges and market benchmarks. |
-| **3. Improve Employee Engagement** | Employees with the lowest job involvement rating had an attrition rate of 33.73%. | Conduct employee surveys, regular manager check-ins and career development discussions. |
-| **4. Manage Overtime and Workload** | Employees working overtime had an attrition rate of 30.53%. | Monitor overtime frequency, workload distribution and staffing levels, and assess whether additional support is needed. |
-| **5. Strengthen Support for New Employees** | Employees with 0–2 years of service had an attrition rate of 29.82%. | Improve onboarding, mentoring, early performance feedback and career planning. |
+| **3. Manage Overtime and Workload** | Employees working overtime had an attrition rate of 30.53%. | Monitor overtime frequency, workload distribution and staffing levels, and assess whether additional support is needed. |
+| **4. Strengthen Support for New Employees** | Employees with 0–2 years of service had an attrition rate of 29.82%. | Improve onboarding, mentoring, early performance feedback and career planning. |
 
 ## **Conclusion** ##
 This project analysed 1,470 employee records from the IBM HR Analytics dataset to understand why employees leave the company. The analysis found higher attrition rates among Sales Representatives, lower-income employees, employees with poor work-life balance, those working overtime, and employees with fewer years of service. Two predictive models, Logistic Regression and Random Forest, were used to estimate employee attrition, with different strengths in identifying employees who might leave and making correct predictions. The results were presented through Power BI dashboards, together with recommendations to improve compensation, manage workloads, increase employee engagement and provide better support for new employees. Overall, this project shows how data analysis and visualisation can help HR make better decisions and plan ways to retain employees. Further testing is needed before using the predictions in actual HR decisions.
