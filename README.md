@@ -6,12 +6,14 @@
   
 # **Employee Attrition Analysis and Retention Improvement - IBM HR Analytics**
 
-In today's fast-paced world, businesses and organizations face the challenge of extracting meaningful insights from the overwhelming amount of data at their disposal. Traditional methods often fall short, necessitating a more sophisticated and efficient solution.
+## **Business Context** ##
+
+The IBM HR Analytics dataset contains employee workforce information designed to support human resource analytics, talent management, employee retention analysis, workforce planning, and organizational performance evaluation. The dataset combines employee demographics, compensation details, performance indicators, work experience attributes, and employment status information. By analyzing these tables together, organizations can better understand workforce trends, identify factors contributing to employee attrition, evaluate employee engagement, and support strategic human capital decision-making.
 
 ## **Project Overview** ##
-Employee turnover can increase recruitment and training costs, disrupt team operations and place additional pressure on remaining employees. By analysing employee data, organisations can identify patterns associated with employee attrition and better understand which workforce groups may require further attention.
+Employee turnover can increase recruitment and training costs, disrupt team operations and place additional pressure on remaining employees. This project analyses the IBM HR Analytics dataset to examine employee attrition patterns, compare turnover across different workforce groups, and explore workplace factors associated with higher attrition.
 
-This project uses the IBM HR Analytics dataset to analyse employee attrition, explore relationships between employee characteristics and turnover, and present findings through an interactive Power BI dashboard. Supplementary predictive models are also developed to explore whether historical employee data can help identify potential attrition risk.
+The findings are presented through an interactive Power BI dashboard. Supplementary predictive models using Logistic Regression and Random Forest are also developed to explore whether historical employee data can help identify employees with a higher likelihood of attrition.
 
 ## **Problem Statement** ##
 How can an organisation use employee workforce data to understand attrition patterns, identify employee groups and workplace factors associated with higher turnover, and present these insights through an interactive dashboard to support evidence-based HR decisions and retention planning?
